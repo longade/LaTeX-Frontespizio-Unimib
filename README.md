@@ -12,7 +12,7 @@ You have to do the following two things:
 - make a backup of .sty file and replace the original with the new one
 - import _frontespizio_ package and create a title page (below a simple example)
 
-For the first point, go to the folder of the _Frontespizio_ package, for a MikTeX Windows installation it is usually C:\Users\user\AppData\Local\Programs\MiKTeX\tex\latex\frontespizio\frontespizio.sty. Save a copy in this folder (or wherever you want) of this original file, for example I named it _frontespizio\_original.sty_. Then replace this with the one edited by me.
+For the first point, go to the folder of the _Frontespizio_ package, for a MikTeX Windows installation it is usually C:\Users\user\AppData\Local\Programs\MiKTeX\tex\latex\frontespizio\frontespizio.sty. Save a copy of the original file in this folder (or wherever you want), for example I named it _frontespizio\_original.sty_. Then replace this with the one edited by me.
 
 Regarding the second point, in your main .tex file you have to import _frontespizio_ package calling the new template and create the title page.  
 
