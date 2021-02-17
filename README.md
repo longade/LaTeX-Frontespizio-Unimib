@@ -25,6 +25,8 @@ Regarding the second point, in your main .tex file you have to create the title 
     \Titolo {Title of thesis}
     \Relatore {Prof. Ciccio Pasticcio}
     \NRelatore {Relatore}{}
+    \Correlatore {Dott. Franco Forte}
+    \NCorrelatore {Correlatore}{}
     \Candidato[XXXXXX]{Lino Banfi}
     \NCandidato {Relazione della prova finale di}
     \Rientro {1.5cm}
