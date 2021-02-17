@@ -2,19 +2,21 @@
 Title page in LaTeX for degree thesis in Computer Science (Unimib)
 
 ## Introduction
-This page is created using 'Frontespizio' package https://www.ctan.org/pkg/frontespizio. It is independent from the rest of the document, so margins, font etc. are set only for this page. It represents the conversion from the .docx version taken from elearning unimib website.
+This page is created using _Frontespizio_ package https://www.ctan.org/pkg/frontespizio. It is independent from the rest of the document, so margins, font etc. are set only for this page. It represents the conversion of the .docx version taken from elearning unimib website.
 
 ## How it is made
-I edited directly the file .sty of Frontespizio package adding a new template called **unimib**.
+I edited directly the file .sty of _Frontespizio_ package adding a new template called **unimib**.
 
 ## How to use it
 You have to do the following two things:
 - make a backup of .sty file and replace the original with the new one
-- create a title page (below a simple example)
+- import _frontespizio_ package and create a title page (below a simple example)
 
 For the first point, go to the folder of the _Frontespizio_ package, for a MikTeX Windows installation it is usually C:\Users\user\AppData\Local\Programs\MiKTeX\tex\latex\frontespizio\frontespizio.sty. Save a copy in this folder (or wherever you want) of this original file, for example I named it _frontespizio\_original.sty_. Then replace this with the one edited by me.
 
-Regarding the second point, in your main .tex file you have to create the title page, an ecample below:
+Regarding the second point, in your main .tex file you have to import _frontespizio_ package calling the new template and create the title page.
+To import the package use the command **\usepackage\[unimib\]{frontespizio}** before _begin{document}_
+To create a title page, follow this example:
 ```latex
   \begin{frontespizio}
     \Istituzione {Università degli studi di Milano - Bicocca}
