@@ -1,5 +1,5 @@
 # LaTeX-Frontespizio-Unimib
-Title page in LaTeX for thesis for degree in Computer Science (Unimib)
+Title page in LaTeX for degree thesis in Computer Science (Unimib)
 
 ## Introduction
 This page is created using 'Frontespizio' package https://www.ctan.org/pkg/frontespizio. It is independent from the rest of the document, so margins, font etc. are set only for this page. It represents the conversion from the .docx version taken from elearning unimib website.
