@@ -18,7 +18,7 @@ Regarding the second point, in your main .tex file you have to import _frontespi
 
 To import the package use the command 
 ```latex
-\usepackage\[unimib\]{frontespizio}
+\usepackage[unimib]{frontespizio}
 ```
 before _begin{document}_.  
 
