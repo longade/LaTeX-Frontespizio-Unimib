@@ -616,7 +616,6 @@
     {\frontsubtitlefont\front@subtitle\par}
   \fi
   \vspace{\stretch{4}}
-  %\hspace{-1.5cm}
   \def\front@makecandidates{%
     \ifdefined\front@swapnames
       \begin{tabular}[t]{l}
@@ -678,10 +677,6 @@
 \textwidth{\parindent\z@
 \frontnamesfont
 \ifdefined\front@swapnames
-  %\begin{tabular*}{\textwidth}
-  %  {@{\front@push}l@{\extracolsep{\fill}}l@{\front@push}}
-  %\front@makecandidates&\front@makeadvisors
-  %\end{tabular*}
   \begin{tabular*}{\textwidth}{@{\hspace{20pt}}l}
     \front@makecandidates
   \end{tabular*}
@@ -694,22 +689,6 @@
     & \multicolumn{1}{r@{\hspace{20pt}}}{\front@makeadvisors}
   \end{tabular*}
 \else
-  %\begin{tabular*}{\textwidth}
-  %  %{@{\front@push}l@{\extracolsep{\fill}}l@{\front@push}}
-  %  {@{\front@push}l@{}l@{}}
-  %  \front@makeadvisors\\\\\\\\&\front@makecandidates
-  %\end{tabular*}
-  %\begin{tabular*}{\textwidth}
-  %  %{@{\front@push}l@{\extracolsep{\fill}}l@{\front@push}}
-  %  %{|@{\front@push}l@{\extracolsep{\fill}}l@{}|}
-  %  %{|@{\front@push}l@{\extracolsep{\fill}}@{\front@push}|}
-  %  {|@{\hspace{0pt}}l @{\extracolsep{\fill}}| l@{\hspace{50pt}}|}
-  %  \front@makeadvisors &  \\
-  %                      &  \\
-  %                      &  \\
-  %                      &  \\
-  %                      & \multicolumn{1}{r}{\front@makecandidates}
-  %\end{tabular*}
   \begin{tabular*}{\textwidth}{@{\hspace{20pt}}l}
     \front@makeadvisors
   \end{tabular*}
